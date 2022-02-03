@@ -23,7 +23,7 @@ public class Main {
         int yearAfter = currentYear + 100;
         int y = 0;
         for (; y <= yearAfter; y = y + 79) {
-            if (y >= yearBefore || y <= yearAfter) {
+            if (y >= yearBefore && y <= yearAfter) {
                 System.out.println(y + " год");
             }
 
